@@ -9,6 +9,9 @@ h1 {
     display: flex;
     justify-content: center;
     text-align: center;
+    color: #f7484e;
+    font-size: 1.1em;
+    font-family: 'Inconsolata', monospace;
 }
 
 h2 {
@@ -17,11 +20,9 @@ h2 {
     width: 100%;
     padding-top: 45px;
     text-align: center;
+    color: 	#F8F8F8;
 }
 
-h1, h2 {
-    color: #9c9c9c;
-}
 
 nav li {
     list-style: none;
