@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "index.css",
+	"sources": [
+		"../../scss/utilities/index.scss",
+		"../../scss/utilities/_variables.scss"
+	],
+	"sourcesContent": [
+		"@import 'variables';",
+		"// COLORS \n\n$coral: #f7484e;\n$white: #F8F8F8;\n$dark-grey:#282828;"
+	],
+	"names": [],
+	"mappings": ""
+}

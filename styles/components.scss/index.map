@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "index.css",
+	"sources": [
+		"../../scss/components.scss/index.scss",
+		"../../scss/components.scss/_navigation.scss"
+	],
+	"sourcesContent": [
+		"@import 'navigation';",
+		""
+	],
+	"names": [],
+	"mappings": ""
+}

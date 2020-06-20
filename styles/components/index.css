@@ -1,0 +1,23 @@
+/* line 1, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/components/_navigation.scss */
+nav li {
+  list-style: none;
+  padding: none;
+  text-align: center;
+  display: inline-block;
+}
+
+/* line 8, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/components/_navigation.scss */
+nav ul {
+  padding: 0;
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+/* line 14, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/components/_navigation.scss */
+.home-page-nav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=index.css.map */

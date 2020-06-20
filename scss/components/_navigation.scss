@@ -1,0 +1,18 @@
+nav li {
+    list-style: none;
+    padding: none;
+    text-align: center;
+    display: inline-block;
+}
+
+nav ul {
+    padding: 0;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.home-page-nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

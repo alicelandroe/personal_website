@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #f7484e;
+}
+
+h2 {
+    width: 100%;
+    padding-top: 45px;
+    margin: 0;
+    text-align: center;
+    color: 	#F8F8F8;
+}
+
+// home-page
+
+.home-page,
+.about-page,
+.project-page { 
+    width: 100%;
+    height: 100vh;
+}
+
+.home-page {
+    background-color: #282828;
+}
+// about page 1
+
+.about-page {
+    background-color:#f7484e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-information {
+    width: 80%;
+    margin: auto;
+    margin-top: 35px;
+}
+
+// Project page
+.project-page {
+    background-color:#f7484e;
+}
+
+.project-page ul {
+    padding: 0;
+    padding-bottom: 35px;
+    text-align: center;
+
+}
+
+.project-page li {
+    list-style: none;
+    padding: none;
+    text-align: center;
+    display: inline-block;   
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+// work image 1
+
+.imgbox {
+    display: grid;
+    height: 100%;
+}
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}

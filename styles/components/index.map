@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "index.css",
+	"sources": [
+		"../../scss/components/index.scss",
+		"../../scss/components/_navigation.scss"
+	],
+	"sourcesContent": [
+		"@import 'navigation';",
+		"nav li {\n    list-style: none;\n    padding: none;\n    text-align: center;\n    display: inline-block;\n}\n\nnav ul {\n    padding: 0;\n    padding-bottom: 35px;\n    text-align: center;\n}\n\n.home-page-nav {\n    position: absolute;\n    bottom: 0;\n    width: 100%;\n}\n"
+	],
+	"names": [],
+	"mappings": ";ACAA,AAAA,GAAG,CAAC,EAAE,CAAC;EACH,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,YAAY;CACxB;;;AAED,AAAA,GAAG,CAAC,EAAE,CAAC;EACH,OAAO,EAAE,CAAC;EACV,cAAc,EAAE,IAAI;EACpB,UAAU,EAAE,MAAM;CACrB;;;AAED,AAAA,cAAc,CAAC;EACX,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,CAAC;EACT,KAAK,EAAE,IAAI;CACd"
+}
