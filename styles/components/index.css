@@ -20,4 +20,15 @@ nav ul {
   width: 100%;
 }
 
+/* line 1, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/components/_buttons.scss */
+.btn-more-position {
+  text-align: center;
+  padding-top: 25px;
+}
+
+/* line 6, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/components/_buttons.scss */
+.btn-more {
+  margin: auto;
+}
+
 /*# sourceMappingURL=index.css.map */
