@@ -11,7 +11,8 @@ h1 {
     color: #f7484e;
 }
 
-h2 {
+.main-header,
+.frontpage-name {
     width: 100%;
     padding-top: 45px;
     margin: 0;
@@ -38,6 +39,11 @@ h2 {
 
 .about-page {
     background-color:#f7484e;
+}
+
+.about-page,
+.project-page,
+.contact-page {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,3 +103,8 @@ h2 {
     margin: auto;
     margin-top: 35px;
 }
+
+.contact-information p {
+    line-height: 140%;
+}
+

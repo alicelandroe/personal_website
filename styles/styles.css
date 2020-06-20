@@ -387,7 +387,8 @@ h1 {
 }
 
 /* line 14, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
-h2 {
+.main-header,
+.frontpage-name {
   width: 100%;
   padding-top: 45px;
   margin: 0;
@@ -395,7 +396,7 @@ h2 {
   color: #F8F8F8;
 }
 
-/* line 24, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
+/* line 25, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
 .home-page,
 .about-page,
 .project-page,
@@ -404,41 +405,47 @@ h2 {
   height: 100vh;
 }
 
-/* line 32, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
+/* line 33, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
 .home-page,
 .contact-page {
   background-color: #282828;
 }
 
-/* line 39, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
+/* line 40, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
 .about-page {
   background-color: #f7484e;
+}
+
+/* line 44, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
+.about-page,
+.project-page,
+.contact-page {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-/* line 47, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
+/* line 53, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
 .about-information {
   width: 80%;
   margin: auto;
   margin-top: 35px;
 }
 
-/* line 54, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
+/* line 60, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
 .project-page {
   background-color: #f7484e;
 }
 
-/* line 58, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
+/* line 64, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
 .project-page ul {
   padding: 0;
   padding-bottom: 35px;
   text-align: center;
 }
 
-/* line 64, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
+/* line 70, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
 .project-page li {
   list-style: none;
   padding: none;
@@ -446,36 +453,41 @@ h2 {
   display: inline-block;
 }
 
-/* line 71, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
+/* line 77, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
 .project-list {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-/* line 78, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
+/* line 84, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
 .background-img-projects {
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-/* line 83, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
+/* line 89, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
 .img-project1 {
   background-image: url("../images/mountain-scene.jpg");
 }
 
-/* line 87, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
+/* line 93, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
 .project-title {
   text-align: center;
   padding-top: 40%;
   margin: 0px;
 }
 
-/* line 95, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
+/* line 101, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
 .contact-information {
   width: 80%;
   margin: auto;
   margin-top: 35px;
+}
+
+/* line 107, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
+.contact-information p {
+  line-height: 140%;
 }
 
 /* line 1, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_typography.scss */
