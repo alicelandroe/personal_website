@@ -18,6 +18,7 @@ nav li {
     color: #f7484e;
 }
 
+// project page
 .project-page li {
     font-family: 'Inconsolata', monospace;
     font-size: 1.1em;
@@ -26,4 +27,14 @@ nav li {
 
 .project-title {
     font-size: 2em;
+}
+
+// contact page
+
+.contact-information h4 {
+    font-size: 1.3em;
+}
+
+.email-me {
+    color: #f7484e;
 }

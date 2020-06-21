@@ -483,11 +483,17 @@ h1 {
   width: 80%;
   margin: auto;
   margin-top: 35px;
+  margin-bottom: 80px;
 }
 
-/* line 107, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
+/* line 108, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
 .contact-information p {
   line-height: 140%;
+}
+
+/* line 113, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_layout.scss */
+.social-media-links {
+  list-style: none;
 }
 
 /* line 1, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_typography.scss */
@@ -514,16 +520,26 @@ nav li {
   color: #f7484e;
 }
 
-/* line 21, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_typography.scss */
+/* line 22, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_typography.scss */
 .project-page li {
   font-family: 'Inconsolata', monospace;
   font-size: 1.1em;
   color: white;
 }
 
-/* line 27, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_typography.scss */
+/* line 28, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_typography.scss */
 .project-title {
   font-size: 2em;
+}
+
+/* line 34, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_typography.scss */
+.contact-information h4 {
+  font-size: 1.3em;
+}
+
+/* line 38, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/base/_typography.scss */
+.email-me {
+  color: #f7484e;
 }
 
 /* line 1, ../../../../../../../../../../../../../Users/alicefogelberg/Desktop/coding projects/personal_website/scss/components/_navigation.scss */
